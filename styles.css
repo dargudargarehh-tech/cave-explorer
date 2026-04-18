@@ -1,11 +1,14 @@
-body { 
-    margin: 0; 
-    overflow: hidden; 
-    background-color: #111; 
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
 }
 
-canvas { 
-    display: block; 
-    margin: 0 auto; 
-    cursor: none; 
+#caveGame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #111;
+    cursor: crosshair;
 }
